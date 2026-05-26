@@ -3,7 +3,7 @@
 > **这个 Skill 永远无法取代江南。但它希望帮助你写出一个属于自己的结局。**
 
 [![Version](https://img.shields.io/badge/version-2.0.1-blue.svg)](https://github.com/dmlin7777777/jiangnan.skill/releases)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey.svg)](LICENSE)
 [![Made with Nuwa](https://img.shields.io/badge/Made%20with-Nuwa%20Skill-orange.svg)](https://github.com/alchaincyf/nuwa-skill)
 [![Enhanced by Darwin](https://img.shields.io/badge/Enhanced%20by-Darwin%20Skill-red.svg)](https://github.com/alchaincyf/darwin-skill)
 [![Protocol v2](https://img.shields.io/badge/Protocol-v2.0%20Narrative-purple.svg)](#v20-%E5%8F%99%E4%BA%8B%E5%8D%8F%E9%87%8D%E6%9E%84)
@@ -401,7 +401,7 @@ references/                             ← 研究/审计素材目录（已忽�
 
 ## 📄 License
 
-MIT License
+[CC BY-NC 4.0](LICENSE) — 署名-非商业性使用 4.0 国际
 
 ---
 
