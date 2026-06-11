@@ -1,0 +1,27 @@
+{
+  "evaluated_at": "2026-06-11T12:16:00+08:00",
+  "evaluator": "darwin-skill v2.0",
+  "prompts": [
+    {
+      "id": "P1",
+      "label": "Happy Path — Fragment 模式",
+      "prompt": "给路明非写一个 Fragment 模式的结局。代价是失去绘梨衣的记忆，信物是一颗水果糖，第一画面是黄昏的天台，风吹过来。",
+      "expected_pipeline": "Step 0 → Step 1(Fragment) → Step 2(三元素提取) → Step 3(Fragment 模板) → Step 4(5步润色) → Step 5(质检) → Step 6(龙族5补丁)",
+      "expected_length": "200~800字"
+    },
+    {
+      "id": "P2",
+      "label": "复杂场景 — Grand Finale 模式",
+      "prompt": "给楚子航写一个 Grand Finale 结局。他为了守护学院，独自面对奥丁，以生命为代价。信物是父亲的刀。我脑海里第一画面是：尼伯龙根崩塌时，他最后一次挥刀的背影。",
+      "expected_pipeline": "Step 0 → Step 1(Grand Finale) → Step 2(三元素提取) → Step 3(Grand Finale 五幕) → Step 4(5步润色) → Step 5(质检) → Step 6(龙族5补丁·奥丁意象化)",
+      "expected_length": "2000~10000字"
+    },
+    {
+      "id": "P3",
+      "label": "润色附着模式",
+      "prompt": "把这段话润色成江南的风格：「他很想她。每天走在路上看到长头发的女孩都会想到她。可是他知道她不在了，永远都不会回来了。他觉得自己会一直这样孤独下去。」",
+      "expected_pipeline": "前置路由→润色附着模式→Step 4(5步润色：时间线去锚定→冗余切除→句式DNA注入→通感激活→软转折加固)",
+      "expected_length": "与原文相近或更短"
+    }
+  ]
+}
