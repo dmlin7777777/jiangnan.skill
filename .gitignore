@@ -1,4 +1,2 @@
 dist/
-references/*
-!references/mental-models.md
-!references/style-dna.md
+references/

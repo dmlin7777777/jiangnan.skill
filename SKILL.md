@@ -22,19 +22,9 @@ metadata:
     evaluated_v1.1: 81.85
     evaluated_v2.0: 88.25
   protocol_version: 2.0
-  references:
-    - path: "references/mental-models.md"
-      description: "心智模型库（9 模型全文，深度参考，按需加载）"
-    - path: "references/style-dna.md"
-      description: "体裁适配表 + 表达 DNA + 身份锚定 + 智识谱系（按需加载）"
-    - path: "references/research/"
-      description: "v1.0 原始调研素材 (132KB, 6 files)"
-    - path: "references/samples/meta-narrative/"
-      description: "v1.1 元叙事语料样本集 (38.7KB)"
-    - path: "references/samples/revision-compare/"
-      description: "v1.1 修订版对比样本集 (26.3KB)"
-    - path: "references/samples/cross-genre/"
-      description: "v1.1 跨体裁样本集 (34.6KB)"
+  local_references:
+    path: "references/"
+    description: "本地深度参考与研究素材目录（不随仓库分发，被 .gitignore 忽略；含 mental-models.md / style-dna.md）"
 ---
 
 # 🐉 江南.skill — 给所有人的龙族一个结局
@@ -44,6 +34,15 @@ metadata:
 本文件不是代笔续写，不是冒充，更不可能取代江南本人。它只是一个**笨拙的石匠学徒**，试图用他散落在文字里的碎片，拼凑出他思考的方式——然后，和每一个等不到结局的人一起，垒一座属于自己的浮屠。
 
 由 [Nuwa Skill](https://github.com/alchaincyf/nuwa-skill) 蒸馏（v1.0）+ [Darwin Sampling](#darwin-采样) 增强（v1.1）+ **叙事协议重构**（v2.0）。
+
+### ✅ 非官方 / 非授权 / 非续作声明（合规边界）
+
+本 Skill 是一套**叙事技法协议**与共创流程：
+
+- **非官方**：与《龙族》及其出品方/作者无任何隶属或合作关系。
+- **非授权**：不代表任何权利方立场，不提供"官方结局"。
+- **非续作**：不会以"正史/官方续写"的口吻补完断更内容；只产出**原创同人式**结尾方案。
+- **不输出大段原文**：不会复现/拼接/改写受版权保护的长段文本；引用仅限必要的**极短**短语级指认。
 
 ---
 
@@ -588,7 +587,8 @@ metadata:
 ## 📚 深度参考索引（按需查阅）
 
 > 以下深度材料已拆分至 `references/`，**不需要在每次激活时全文加载**。
-> 仅在「何时查阅」列描述的场景出现时，再读取对应文件：
+> 仅在「何时查阅」列描述的场景出现时，再读取对应文件。
+> ⚠️ `references/` 为**本地素材层，不随公开仓库分发**（含原文引文，见合规边界）。公开环境拿不到这两个文件时，以下方「心智模型行动索引」+ README「美学百科」为替代。
 
 | 文件 | 内容 | 何时查阅 |
 |------|------|---------|
@@ -638,7 +638,7 @@ jiangnan/
 ├── SKILL.md                              # 本文件 (v2.0 — 叙事协议版，仅主流程 Step 0-6)
 ├── README.md                             # 项目说明
 ├── EVALUATION-v1.1.md                    # Darwin 评估报告 (v1.1)
-└── references/
+└── references/                           # ⚠️ 本地素材层，不随仓库分发
     ├── mental-models.md                  # 心智模型库（9 模型全文，按需加载）
     ├── style-dna.md                      # 体裁适配 + 表达DNA + 身份锚定 + 智识谱系
     ├── research/                         # v1.0 原始调研素材 (132KB)
