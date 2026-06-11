@@ -2,7 +2,7 @@
 
 > **这个 Skill 永远无法取代江南。但它希望帮助你写出一个属于自己的结局。**
 
-[![Version](https://img.shields.io/badge/version-2.0.1-blue.svg)](https://github.com/dmlin7777777/jiangnan.skill/releases)
+[![Version](https://img.shields.io/badge/version-2.0.2-blue.svg)](https://github.com/dmlin7777777/jiangnan.skill/releases)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey.svg)](LICENSE)
 [![Made with Nuwa](https://img.shields.io/badge/Made%20with-Nuwa%20Skill-orange.svg)](https://github.com/alchaincyf/nuwa-skill)
 [![Enhanced by Darwin](https://img.shields.io/badge/Enhanced%20by-Darwin%20Skill-red.svg)](https://github.com/alchaincyf/darwin-skill)
@@ -95,16 +95,24 @@
   │   → +2模型(DNA+润色) + 元认知层 + 适配表           │
   │   评估质量分: 81.85/100 (Darwin实测)               │
   │                                                    │
-  └─ Phase C: 协议重构 (v2.0) ◄──────────────────────┘
+  ├─ Phase C: 协议重构 (v2.0) ◄──────────────────────┘
+  │   ↓
+  │   「技法手册」→「叙事协议」架构跃迁
+  │   → Step 0~6 完整工作流
+  │   → 结局配方提取(三元素)
+  │   → 尺度自适应(Fragment/Finale)
+  │   → 5步润色管线
+  │   → 龙族5专用补丁包
+  │   → 5条创作伦理铁律
+  │   评估质量分: 88.25/100 (8维 rubric 实测)
+  │
+  └─ Phase D: Darwin 优化循环 (v2.0.2)
       ↓
-      「技法手册」→「叙事协议」架构跃迁
-      → Step 0~6 完整工作流
-      → 结局配方提取(三元素)
-      → 尺度自适应(Fragment/Finale)
-      → 5步润色管线
-      → 龙族5专用补丁包
-      → 5条创作伦理铁律
-      目标质量分: 92+/100
+      固定测试集 P1~P3 + 多轮 9 维评估
+      → 深度参考拆至本地素材层 + 心智模型行动索引
+      → CHECKPOINT 确认门 + step 级 fallback + 修复熔断
+      → 润色附着前置路由（已有文本直进润色管线）
+      → 4 月加固功能全量找回（Active Checks / 动态锚点 / 回执约束）
 ```
 
 ### 数据来源
@@ -339,8 +347,11 @@ cp SKILL.md .workbuddy/skills/jiangnan/SKILL.md
 ```
 jiangnan/
 ├── README.md                          ← 你在这里
-├── SKILL.md                           ← 核心产物：叙事协议 v2.0
-├── EVALUATION-v1.1.md                 ← Darwin 评估报告 (81.85分)
+├── SKILL.md                           ← 核心产物：叙事协议 v2.0.2
+├── CHANGELOG.md                       ← 版本变更记录（唯一版本历史源）
+├── EVALUATION-v1.1.md                 ← Darwin 评估报告 (v1.1, 81.85分)
+├── EVALUATION-v2.0-darwin9d.md        ← Darwin 9 维基线评估 (v2.0.2)
+├── test-prompts.json                  ← 固定评估测试集 (P1~P3)
 ├── outputs/                           ← 产出示例与回执
 └── scripts/                           ← 工具脚本（如导出公开包）
 
@@ -386,7 +397,7 @@ references/                             ← 研究/审计素材目录（已忽�
 
 详细版本变更记录请见 [CHANGELOG.md](CHANGELOG.md)。`SKILL.md` 的 frontmatter 只保留当前版本号。
 
-当前版本：**v2.0.1**
+当前版本：**v2.0.2**
 
 ---
 
