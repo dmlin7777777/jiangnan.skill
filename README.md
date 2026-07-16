@@ -2,7 +2,7 @@
 
 > **这个 Skill 永远无法取代江南。但它希望帮助你写出一个属于自己的结局。**
 
-[![Version](https://img.shields.io/badge/version-2.0.2-blue.svg)](https://github.com/dmlin7777777/jiangnan.skill/releases)
+[![Version](https://img.shields.io/badge/version-2.0.3-blue.svg)](https://github.com/dmlin7777777/jiangnan.skill/releases)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey.svg)](LICENSE)
 [![Made with Nuwa](https://img.shields.io/badge/Made%20with-Nuwa%20Skill-orange.svg)](https://github.com/alchaincyf/nuwa-skill)
 [![Enhanced by Darwin](https://img.shields.io/badge/Enhanced%20by-Darwin%20Skill-red.svg)](https://github.com/alchaincyf/darwin-skill)
@@ -225,9 +225,22 @@ mkdir -p .workbuddy/skills/jiangnan
 cp SKILL.md .workbuddy/skills/jiangnan/SKILL.md
 ```
 
+#### Codex / Cursor / 其他通用 Agent
+
+```bash
+# 方式一：克隆后软链（推荐，便于同步更新）
+git clone https://github.com/dmlin7777777/jiangnan.skill.git
+ln -s "$(pwd)/jiangnan.skill/SKILL.md" <agent-skills-dir>/jiangnan/SKILL.md
+
+# 方式二：直接复制 SKILL.md 到 Agent 的 skills 目录
+cp SKILL.md <agent-skills-dir>/jiangnan/SKILL.md
+```
+
 > 安装后在对话中说触发词即可自动加载，或使用 `use_skill jiangnan` 手动加载。
 
 </details>
+
+> 🧪 **交付前自测**：每次产出结局后，用 [`scripts/selfcheck.md`](scripts/selfcheck.md) 逐项对照 Step 5 质检清单；固定回归测试集见 [`test-prompts.json`](test-prompts.json)（P1~P3）。
 
 ---
 
@@ -347,13 +360,13 @@ cp SKILL.md .workbuddy/skills/jiangnan/SKILL.md
 ```
 jiangnan/
 ├── README.md                          ← 你在这里
-├── SKILL.md                           ← 核心产物：叙事协议 v2.0.2
+├── SKILL.md                           ← 核心产物：叙事协议 v2.0.3
 ├── CHANGELOG.md                       ← 版本变更记录（唯一版本历史源）
 ├── EVALUATION-v1.1.md                 ← Darwin 评估报告 (v1.1, 81.85分)
 ├── EVALUATION-v2.0-darwin9d.md        ← Darwin 9 维基线评估 (v2.0.2)
 ├── test-prompts.json                  ← 固定评估测试集 (P1~P3)
 ├── outputs/                           ← 产出示例与回执
-└── scripts/                           ← 工具脚本（如导出公开包）
+└── scripts/                           ← 工具脚本（selfcheck.md 质检模板 / 导出公开包）
 
 （可选，本地维护，不随仓库分发）
 references/                             ← 研究/审计素材目录（已忽略，不会被提交）
@@ -397,7 +410,7 @@ references/                             ← 研究/审计素材目录（已忽�
 
 详细版本变更记录请见 [CHANGELOG.md](CHANGELOG.md)。`SKILL.md` 的 frontmatter 只保留当前版本号。
 
-当前版本：**v2.0.2**
+当前版本：**v2.0.3**
 
 ---
 

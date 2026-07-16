@@ -2,6 +2,16 @@
 
 All notable changes to this project are documented here.
 
+## [2.0.3] - 2026-07-16
+
+### Changed（方案A 打磨 · 鲁班/Luban 交叉评估后续）
+
+- **Step 3 接口显式化**：Grand Finale 的「模型2 悲壮热血美学 / 模型6 多重施压」新增**内联执行卡**（落笔顺序），执行者无需翻阅 `references/mental-models.md` 即可落笔，单文件可执行性闭环（补 Luban P1「资源整合度」缺口）。
+- **README 安装入口补全**：新增 Codex / Cursor / 通用 Agent 一行安装段；补充 `scripts/selfcheck.md` 与 `test-prompts.json` 的自测/回归入口链接；版本 badge 与版本号同步至 2.0.3。
+- **新增 `scripts/selfcheck.md`**：将 Step 5 质检清单固化为可勾选模板（含元信息栏、修复记录表、熔断规则），作为轻量验证资产，对齐同行「可运行验证」差距。
+
+> 评估背景：Darwin 与 Luban 同日基线评估均为 84/100；本版仅做清晰度与公开可用性打磨，**未改动核心协议与 5 条创作伦理铁律**。
+
 ## [2.0.2] - 2026-06-11
 
 ### Fixed
