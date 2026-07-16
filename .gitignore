@@ -1,2 +1,9 @@
 dist/
 references/
+
+# 保留但不入库：嵌套旧副本（误拷贝，待确认清理）+ 小红书推广草稿
+# 注：git 会把同名嵌套目录 jiangnan/jiangnan/ 折叠显示为 jiangnan/，故两种路径都写上
+jiangnan/jiangnan/
+jiangnan/README.md
+jiangnan/SKILL.md
+outputs/xhs-promo-*.md
