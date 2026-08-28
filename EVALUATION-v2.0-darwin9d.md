@@ -6,8 +6,7 @@
 > **评估模式**: 结构静态分析 + dry_run ×3 测试 Prompt
 > **Runtime 中立性扫描**: 零命中
 >
-> ⚠️ **本评估与 [EVALUATION-v2.0.md](EVALUATION-v2.0.md)（8 维度 rubric，88.25 分）使用不同
-> rubric，两个分数不可比。** 本文件是新一轮 Darwin 优化循环的 Phase 1 基线。
+> ⚠️ **本评估与此前的 8 维度 rubric 评估（v2.0 实测 88.25 分）使用不同 rubric，两个分数不可比。** 本文件是新一轮 Darwin 优化循环的 Phase 1 基线。
 
 ---
 
